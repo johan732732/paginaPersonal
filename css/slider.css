@@ -1,0 +1,27 @@
+div.img {
+	display:block;
+    border: 1px solid #ccc;
+    width: 100%;
+	transform: scale(0.5);	
+	text-align: center;
+}
+
+
+div.img:hover {
+    border: 1px solid #777;
+	transform: scale(0.6);
+	padding: 50px;
+   transition: transform .2s; /* Animation */ 
+    margin: 0 auto;	
+}
+
+div.img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 50px;
+    text-align: center;
+	font-size:90px;
+}

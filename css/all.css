@@ -1,0 +1,173 @@
+@media screen and (min-width:600px) {
+
+
+}
+
+@media screen and (max-width:599px) {
+  
+.guitar, .musica, .projects, .juegos, .viajar,.programacion, .me{
+	transform: scale(0.4);	
+}
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+table,th, td {
+	border: 1px solid black;
+}
+
+tr.rowhighlight td, tr.rowhighlight th{
+    background-color:#f0f8ff;
+}
+
+table.table-small {
+	width: 30%;
+}
+table.table-medium {
+	width: 50%;
+}
+table.table-large {
+	width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+.text-center {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div {
+	margin-bottom: 30px;
+}
+
+img.redonda {
+    border-radius: 50%;
+}
+
+img.borde-redondo {
+    border-radius: 10px;
+}
+
+img.img-small {
+	width: 100px;
+	height: 100px;
+}
+img.img-medium {
+	width: 300px;
+	height: 300px;
+}
+img.img-large {
+	width: 900px;
+	height: 900px;
+}
+	
+
+div.centraTabla{
+text-align: center;
+}
+
+div.centraTabla table {
+margin: 0 auto;
+text-align: left;
+}
+
+
+.position-center{
+	float:center;
+}
+
+	
+.position-left{
+	float:left;
+}
+
+.position-right{
+	float:left;
+}
+
+.guitar, .musica, .projects, .juegos, .viajar,.programacion, .me{
+	display: inline-block; 
+	background: url('../img/sprite.png') no-repeat;
+	overflow: hidden; 
+	text-indent: -9999px;
+	text-align: left;
+}
+ 
+.guitar { 
+	background-position: -0px -0px; 
+	width: 1280px; 
+	height: 720px; 
+}
+
+.musica {
+	background-position: -0px -720px;
+	width: 1144px;
+	height: 645px;
+}
+
+.projects {
+	background-position: -0px -1365px;
+	width: 1024px;
+	height: 512px;
+}
+
+.juegos { 
+	background-position: -0px -1877px;
+	width: 930px;
+	height: 525px; 
+}
+
+.viajar { 
+	background-position: -0px -2402px;
+	width: 785px;
+	height: 360px; 
+}
+
+.programacion {
+	background-position: -0px -2762px;
+	width: 750px;
+	height: 490px;
+}
+
+.me {
+	background-position: -788px -2409px;
+	width: 407px;
+	height: 391px;
+}
+
